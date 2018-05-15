@@ -25,7 +25,6 @@ if [ $1 == 'cpu' ]; then
         echo $cpu_string | awk '{ print "system.cpu.stolen_by_virt_hypervisor " $14}'
 elif [ $1 == 'mem' ]; then 
         mem_string=`top -n 1 | grep "Mem"`
-	echo $mem_string
         echo $mem_string | awk '{print "virtual total "$4}'
         echo $mem_string | awk '{print "virtual free "$6}'
         echo $mem_string | awk '{print "virtual used "$8}'
