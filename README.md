@@ -24,9 +24,11 @@ python ./gl_sysinfo.py
 Check that Docker is installed and ran (you can check it by 'sudo systemctl status docker').
 Prepare docker images by:
 - building it yourself by using of Dockerfile:
+
 docker build -t gl_devop_image1 ./
 or
 - using of existent image from remote repository:
+
 docker pull kaim/gl:gl_devop_image1
 
 3.1. Run scripts by executing:
