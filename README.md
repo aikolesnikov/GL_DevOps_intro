@@ -1,11 +1,11 @@
 # GL_DevOps_intro
 
-Pre-conditions:
+1.1. Pre-conditions:
 - Git installed (you can check it by 'git --version');
 - Python, pip are installed (python --version , pip -V); 
 - 'psutil' is installed (see https://psutil.readthedocs.io). 
 
-1. Clone repository as following:
+1.2. Clone repository as following:
 git clone https://github.com/aikolesnikov/GL_DevOps_intro.git
 
 
@@ -24,8 +24,7 @@ docker build -t gl_devop_image1 ./
 or
 - using of existent image from remote repository:
 
-3. Run scripts by:
-- Linux:
-java -classpath ./target/classes/ process.Main
-- Windows:
-java -classpath \target\classes\ process.Main
+3. Run scripts by executing:
+docker run -it gl_devop_image1 /tmp/gl1_cpu_mem_info.sh cpu
+docker run -it gl_devop_image1 /tmp/gl1_cpu_mem_info.sh mem
+docker run -it gl_devop_image1 /usr/bin/python /tmp/gl_sysinfo.py
