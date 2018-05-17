@@ -26,7 +26,9 @@ or
 
 3.1. Run scripts by executing:
 docker run -it gl_devop_image1 /tmp/gl1_cpu_mem_info.sh cpu
+
 docker run -it gl_devop_image1 /tmp/gl1_cpu_mem_info.sh mem
+
 docker run -it gl_devop_image1 /usr/bin/python /tmp/gl_sysinfo.py
 
 
