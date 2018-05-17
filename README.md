@@ -23,6 +23,7 @@ Prepare docker images by:
 docker build -t gl_devop_image1 ./
 or
 - using of existent image from remote repository:
+docker pull kaim/gl:gl_devop_image1
 
 3.1. Run scripts by executing:
 
