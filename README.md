@@ -13,8 +13,11 @@ For using of these scripts you will have 2 options:
 
 2.1. Local scripts executing: 
 ./gl1_cpu_mem_info.sh cpu 
+
 ./gl1_cpu_mem_info.sh mem 
+
 python ./gl_sysinfo.py 
+
 
 2.2. Docker using.
 Check that Docker is installed and ran (you can check it by 'sudo systemctl status docker').
