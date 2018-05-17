@@ -11,7 +11,8 @@ git clone https://github.com/aikolesnikov/GL_DevOps_intro.git
 
 For using of these scripts you will have 2 options:
 
-2.1. Local scripts executing: 
+2.1. Local scripts executing:
+
 ./gl1_cpu_mem_info.sh cpu 
 
 ./gl1_cpu_mem_info.sh mem 
